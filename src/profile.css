@@ -1,0 +1,71 @@
+*{
+    background: #8b7086;
+}
+.card{
+    margin: 60px auto;
+    margin-top: 50px;
+    width: 60%;
+    max-width:400px;
+    padding:20px;
+    border-radius: 8px;
+    border: black solid 2px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.head{
+    color:rgb(48, 11, 41);
+}
+
+.cardin{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    
+}
+.cardin input{
+
+    height: 25px;
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+.btsearch{
+    background-color: rgba(20, 130, 66, 0.672);
+    cursor: pointer;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.content{
+    justify-content: center;
+    text-align: center;
+    
+}
+.folb{
+    text-align: justify;
+}
+.user{
+    border-radius: 10px;
+}
+.phcontainer { 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 30vh; 
+}
+.photo{
+    height:200px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+.vp{
+    background-color: rgb(22, 156, 84);
+    height:40px;
+    cursor: pointer;
+}
